@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startSearchBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_search" >
+    </Button>
+
+    <TextView
+        android:id="@+id/clientServersText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/selectDeviceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_device"
+        android:visibility="gone" >
+    </Button>
+
+    <EditText
+        android:id="@+id/clientChatEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_margin="5dip"
+        android:background="#aaa"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:gravity="top"
+        android:singleLine="false" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/clientSendEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <Button
+        android:id="@+id/clientSendMsgBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙</string>
+    <drawable name="background_color">#ffffff</drawable>
+    <string name="switch_off">关</string>
+    <string name="switch_on">开</string>
+
+    <string-array name="array_spinner">
+        <item>5秒</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>15分钟</item>
+    </string-array>
+    
+    <string name="setting">setting</string>
+    <string name="openLock">open lock</string>
+    <string name="send">send</string>
+    <string name="device">device</string>
+    <string name="no_found_device">no found device</string>
+    <string name="is_auto_openLock">auto open lock</string>
+    <string name="set_key">set key</string>
+    <string name="save_key">save key</string>
+    <string name="auto_openLock">auto open lock</string>
+    <string name="handle_openLock">handle open lock</string>
+    <string name="input_time">input time</string>
+    <string name="save">save</string>
+    <string name="send_key">send key</string>
+    
+    <string name="start_search">start search</string>
+    <string name="choice_device">choice device</string>
+    <string name="bluetooth_test">bluetooth test</string>
+    <string name="open_server">open server</string>
+    <string name="open_client">open_client</string>
+</resources>
